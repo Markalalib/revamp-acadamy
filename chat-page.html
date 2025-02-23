@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-image: url('https://ik.imagekit.io/marka/chat%20page/wp6988872.jpg?updatedAt=1728128648468');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+        }
+
+        .chat-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .chat-box {
+            width: 350px;
+            padding: 10px;
+            background-color: #222;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .message {
+            background-color: #505050;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px 0;
+            text-align: left;
+        }
+
+        .message.sender {
+            background-color: #38B6FF;
+            text-align: right;
+        }
+
+        .header {
+            text-align: center;
+            font-size: 20px;
+            color: white;
+            padding: 10px;
+            border-bottom: 1px solid #505050;
+        }
+
+        .footer {
+            text-align: center;
+            color: #909090;
+            padding: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-box">
+            <div class="header">AKRAM BILAL</div>
+            
+            <div class="message">Hello AKRAM BILAL, how are you?</div>
+            <div class="message sender">Hi Vasukiran I am good. How about you?</div>
+            <div class="message">I'm fine, I updated my resume recently.</div>
+            <div class="message sender">Oh great Vasukiran! Can you send me the URL?</div>
+            <div class="message">Here’s the resume link:</div>
+            <div class="message sender">Awesome Vasukiran, where did you join?</div>
+            <div class="message">Noltran COEP 14 Program</div>
+            <div class="message">Congrets😊 </div>
+            
+            <div class="footer">Chat Page Example</div>
+        </div>
+    </div>
+</body>
+</html>

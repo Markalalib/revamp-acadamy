@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-image: url('https://ik.imagekit.io/4z8covdo9/Full%20stack/todolistbg.png?updatedAt=1700761069523');
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+            padding: 40px;
+            width: 100%;
+            max-width: 600px; /* Increased to make it more prominent */
+            text-align: center;
+            border-radius: 15px;
+        }
+
+        h1 {
+            font-size: 2.5em; /* Increased size */
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.1em; /* Slightly larger font for better readability */
+            margin-bottom: 30px;
+            line-height: 1.5em;
+        }
+
+        button {
+            background-color: orange;
+            color: white;
+            padding: 12px 25px;
+            font-size: 1.2em; /* Larger button text */
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        button:hover {
+            background-color: darkorange;
+        }
+
+        .skip {
+            font-size: 1em;
+            text-decoration: underline;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Todolist</h1>
+        <p>Each day I will accomplish one thing on my todo list.</p>
+        <h2>Read a Book</h2>
+        <p>I don't think that the human race will survive the next thousand years, unless we spread into space. 
+           There are too many accidents that can befall life on a single planet. But I'm an optimist...</p>
+        <button>Start</button>
+        <div class="skip">Don't skip introduction</div>
+    </div>
+</body>
+</html>
+
